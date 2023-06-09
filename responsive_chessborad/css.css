@@ -1,0 +1,82 @@
+body{
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.table{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 15px;
+}
+.b{
+    background-color: rgb(18, 148, 51);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color:rgb(18, 148, 51) ;
+}
+.b1{
+    background-color: rgb(18, 148, 51);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+}
+.b1:hover{
+    text-shadow: 0 0 3px #FF0000;
+    box-shadow:  0 4px 8px 0 black;
+}
+.b:hover{
+    text-shadow: 0 0 3px #FF0000;
+    box-shadow:  0 4px 8px 0 black;
+}
+.w{
+    background-color:white;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    color:white;
+}
+.w1{
+    background-color:white;
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    font-size: 30px;
+}
+.w:hover{
+    text-shadow: 0 0 3px #FF0000;
+    box-shadow:  0 4px 8px 0 black;
+}
+.w1:hover{
+    text-shadow: 0 0 3px #FF0000;
+    box-shadow:  0 4px 8px 0 black;
+}
+
+@media screen and (max-width: 768px) {
+    .table {
+        margin-top: 30px;
+    }
+  
+    td, th {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .b, .b1, .w, .w1 {
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+    }
+}
