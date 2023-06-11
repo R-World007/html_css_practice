@@ -1,0 +1,29 @@
+.header{
+    margin-top: 20px;
+
+}
+.parent{
+    background-color: azure;
+}
+.left{
+    display: inline-block;
+    width: 40%;
+    background-color: blue;
+}
+.right{
+    display: inline-block;
+    width: 40%;
+}
+.R_img{
+
+    width: 600px;
+    height: 500px;
+}
+.footer{
+    background-color: green;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
